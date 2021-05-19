@@ -9,17 +9,26 @@
   gtag('config', 'UA-197463590-1');
 </script>
 
-<span onclick="transitionToPage('https://www.roblox.com/games/6414530469/Playable-Piano')"></span>
 
-<script type="text/javascript">
-  window.transitionToPage = function(href) {
-    document.querySelector('body').style.opacity = 0
-    setTimeout(function() {
-        window.location.href = href
-    }, 500)
-  }
+<!DOCTYPE html>
+<html>
 
-  document.addEventListener('DOMContentLoaded', function(event) {
-    document.querySelector('body').style.opacity = 1
-  })
-</script>
+<head>
+    <title>HTML Redirect</title>
+    <meta http-equiv="refresh"
+        content="5; url = https://www.roblox.com/games/6414530469/Playable-Piano" /> 
+</head>
+
+<body>
+    <h1 style="text-align:center;color:green;">
+         GeeksforGeeks
+    </h1>
+
+    <p style="text-align:center;">
+        If your browser supports Refresh,
+        you'll be redirected to GeeksforGeeks
+        Homepage, in 5 seconds.
+    </p>
+</body>
+
+</html>
