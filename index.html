@@ -8,3 +8,18 @@
 
   gtag('config', 'UA-197463590-1');
 </script>
+
+<span onclick="transitionToPage('https://www.roblox.com/games/6414530469/Playable-Piano')"></span>
+
+<script type="text/javascript">
+  window.transitionToPage = function(href) {
+    document.querySelector('body').style.opacity = 0
+    setTimeout(function() {
+        window.location.href = href
+    }, 500)
+  }
+
+  document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
+  })
+</script>
