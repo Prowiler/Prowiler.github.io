@@ -1,40 +1,47 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-197463590-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-197463590-1');
-</script>
-
-
+<!DOCTYPE html>
 <html>
-<head>
-  <title>Redirecting</title>
-  <meta http-equiv="Refresh" content="5; url=https://www.roblox.com/games/6414530469/Playable-Piano">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-</head>
-<body bgcolor="#13141A" text="#FFFFFF">
-  <!-- This page was made By https://www.html-code-generator.com/ -->
-  <h1 style="font-family:verdana"><center>Monday-Gaming</center></h1><center style="font-family:verdana">
-This site has now moved to <a style="font-family:verdana" href="https://www.roblox.com/games/6414530469/Playable-Piano">https://www.roblox.com/games/6414530469/Playable-Piano </a>.
-  <p style="font-family:verdana">Your browser will automatically redirect you within 5 seconds.</p>
+  <head>
+    <title>Gamma is Cute!</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
 
-  <p>Many thanks and don't forget to wash your hands</p></center>
-</body>
+      #gammacute {
+        font-size: 48px;
+        animation: matrix 5s infinite;
+      }
+
+      .matrix {
+        animation: matrix 10s infinite;
+      }
+
+      @keyframes matrix {
+        0% { transform: rotate(0deg) scale(1); }
+        25% { transform: rotate(180deg) scale(1.5); }
+        50% { transform: rotate(360deg) scale(1); }
+        75% { transform: rotate(180deg) scale(0.5); }
+        100% { transform: rotate(0deg) scale(1); }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="gammacute">Gamma is cute!</h1>
+    <button id="animatebutton">Animate</button>
+    <script>
+      // Get the button element
+      const button = document.querySelector('#animatebutton');
+
+      // Add a click event listener to the button
+      button.addEventListener('click', function() {
+        // Get the h1 element
+        const h1 = document.querySelector('#gammacute');
+
+        // Toggle the "matrix" class on the h1 element
+        h1.classList.toggle('matrix');
+      });
+    </script>
+  </body>
 </html>
-
-<body onload="document.body.style.opacity='1'">
-</body>
-
-<style media="screen">
-  body{
-    opacity: 0;
-    transition: opacity 3s;
-    -webkit-transition: opacity 2s; /* Safari */
-  }
-</style>
